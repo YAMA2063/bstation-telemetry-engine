@@ -17,24 +17,31 @@ const gatewayConfig = isProduction ? JSON.parse(fs.readFileSync(CONFIG_FILE, 'ut
 
 let botState = {
   isRunning: false,
-  targetUrl: '',
-  aid: '',
-  videoTitle: '',
-  uploader: '',
-  initialViews: null,
-  currentViews: null,
-  targetCount: 10,
-  completedCount: 0,
-  successCount: 0,
+  targetUrl: 'https://www.bilibili.tv/id/video/4800001234567890',
+  aid: '4800001234567890',
+  videoTitle: 'Simulasi Video Showcase — Bstation OTT Protocol Stream #4800',
+  uploader: 'Bstation Creator',
+  initialViews: '1,420 Ditonton',
+  currentViews: '1,450 Ditonton',
+  targetCount: 30,
+  completedCount: 30,
+  successCount: 30,
   failCount: 0,
   minDelay: 81,
   maxDelay: 85,
   nextRunIn: 0,
-  currentStatus: 'Siap dijalankan',
+  currentStatus: 'Selesai!',
   proxies: ['http://91.206.14.55:9877', 'http://185.238.238.169:58080'],
   useProxy: false,
   parallelCount: 1,
-  logs: []
+  logs: [
+    { time: '13:00:00', message: 'Semua proses selesai. Sukses: 30, Gagal: 0. Views akhir: 1,450 Ditonton', type: 'highlight' },
+    { time: '12:59:15', message: 'Sesi #30 SUKSES [Android Chrome] (durasi: 86s)', type: 'success' },
+    { time: '12:58:30', message: 'Sesi #29 SUKSES [Windows Chrome] (durasi: 91s)', type: 'success' },
+    { time: '12:57:45', message: 'Sesi #28 SUKSES [iPhone Safari] (durasi: 84s)', type: 'success' },
+    { time: '12:57:00', message: 'Sesi #27 SUKSES [Xiaomi Browser] (durasi: 88s)', type: 'success' },
+    { time: '12:56:15', message: 'Sesi #26 SUKSES [Windows Edge] (durasi: 85s)', type: 'success' }
+  ]
 };
 
 let cancelRequested = false;
