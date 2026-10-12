@@ -7,6 +7,8 @@ android-sdk/
 build_apk_temp/
 *.apk
 *.idsig
+# Private Keys & Production Secrets
+.private_gateway.json
 debug.keystore
 
 # Logs & Temporary Files

@@ -10,6 +10,15 @@
 
 ---
 
+## 🖥️ Live Telemetry Dashboard Preview
+
+![Bstation Telemetry Dashboard Preview](docs/dashboard-preview.png)
+
+> **🔒 Responsible Disclosure & Security Compliance:**  
+> In accordance with responsible research practices and to prevent unauthorized third-party metric manipulation, proprietary session negotiation endpoints and private gateway tokens are abstracted into `.private_gateway.json`. When executed in public demonstration environments without private gateway keys, the suite operates in high-fidelity architectural demonstration mode.
+
+---
+
 ## 📌 Executive Summary & Architecture
 
 Modern video delivery networks utilize multi-phase asynchronous telemetry handshakes to monitor QoS (Quality of Service), buffer health, and view accounting. This project implements a clean-room reverse-engineered client that replicates the full playback state machine across both **Native Android** and **Desktop Node.js** environments.

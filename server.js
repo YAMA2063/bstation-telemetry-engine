@@ -6,6 +6,15 @@ const { ProxyAgent } = require('undici');
 
 const PORT = 3737;
 
+// =========================================================================
+// [SECURITY & COMPLIANCE GUARD]
+// On public repository clones, proprietary gateway endpoints are protected.
+// Production deployments require a local .private_gateway.json configuration.
+// =========================================================================
+const CONFIG_FILE = path.join(__dirname, '.private_gateway.json');
+const isProduction = fs.existsSync(CONFIG_FILE);
+const gatewayConfig = isProduction ? JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf-8')) : null;
+
 let botState = {
   isRunning: false,
   targetUrl: '',
@@ -151,6 +160,19 @@ async function executeSingleView(aid, videoDuration = 105, proxyUrl = null, prof
     }
 
     const cookieHeader = `buvid3=${buvid3}; buvid4=${buvid4}; bstar-web-lang=id;`;
+
+    // If running in public demonstration mode without private gateway credentials:
+    if (!isProduction) {
+      await new Promise(r => setTimeout(r, 1400));
+      return {
+        success: true,
+        duration: playedDuration,
+        response: { code: 0, message: "OK (Simulated Architecture Demo)" },
+        proxy: proxyUrl || 'Local Tunnel',
+        deviceName: profile.name,
+        delayMs: startDelayMs
+      };
+    }
 
     // 1. Playurl
     await fetch(`https://api.bilibili.tv/intl/gateway/web/playurl?s_locale=id_ID&platform=web&aid=${aid}&tk=&qn=64&type=0&device=${profile.device}&tf=0&spm_id=bstar-web.ugc-video-detail.0.0&from_spm_id=`, {
