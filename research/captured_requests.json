@@ -1,0 +1,819 @@
+[
+  {
+    "timestamp": "2026-10-08T16:12:55.874Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/dash-player-69d7377c.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:12:55.882Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/biliintl-player-dfb25af7.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:12:55.884Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/log-report-4c01fcc3.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:12:55.891Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/icon_report-32bc9553.svg",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:00.143Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/player-danmaku-bf46f8b6.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-f905d25c.js"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:01.065Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/eventBus-731cf723.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:01.085Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/play-cddcfdb2.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:01.735Z",
+    "url": "https://api.bilibili.com/x/frontend/finger/spi",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.009Z",
+    "url": "https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcnf/event.cnf",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.012Z",
+    "url": "https://data.bilibili.tv/log/web?0000171791475982006https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.player_init||1791475982006|0|0|800x600|1|{%22event%22:%22player_init%22,%22value%22:{%22from_spmid%22:%22%22}}|{}||192e6eb7-edc4-4e44-8533-435a3169baf760477infoc|en-GB||1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryId6COCmUmQ139w0a--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryId6COCmUmQ139w0a",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.111Z",
+    "url": "https://data.bilibili.tv/log/web?0000171791475982012https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.cc_click||1791475982012|0|0|800x600|1|{%22event%22:%22cc_click%22,%22value%22:{%22type%22:%22ugc%22,%22from_lang%22:%22Initial%22,%22to_lang%22:%22id%22,%22aid%22:%224800360994708480%22,%22sid%22:%22%22,%22epid%22:%22%22}}|{}||192e6eb7-edc4-4e44-8533-435a3169baf760477infoc|en-GB||1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryrpsPW7nWPBniZANv--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryrpsPW7nWPBniZANv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.113Z",
+    "url": "https://api.bilibili.tv/x/kv-frontend/namespace/data?appKey=333.1333&nscode=0&unlimit=true",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.132Z",
+    "url": "https://data.bilibili.tv/log/web?0000171791475982109https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.third_login_network_slow||1791475982109|0|0|800x600|1|{%22event%22:%22third_login_network_slow%22,%22value%22:%22facebook%22}|{}||192e6eb7-edc4-4e44-8533-435a3169baf760477infoc|en-GB||1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryxoSqw1enZbrfev5Z--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryxoSqw1enZbrfev5Z",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.138Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/subtitle?s_locale=id_ID&platform=web&aid=4800360994708480&spm_id=bstar-web.ugc-video-detail.0.0&from_spm_id=",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.139Z",
+    "url": "https://api.bilibili.tv/dm/web/view?s_locale=id_ID&platform=web&oid=4800360994708480&type=1",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.140Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/ugc/playlist?s_locale=id_ID&platform=web&aid=4800360994708480",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.172Z",
+    "url": "https://data.bilibili.tv/v2/log/web?content_type=pbrequest&logid=021436&disable_compression=true",
+    "method": "POST",
+    "postData": "\n�\u0002\n\u0006021436\u0012\u000b333.989.0.0\u001a�\u0001\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a\u000b333.989.0.0\"\u0003333(\u00010����48����4@̾��4R\u0007\u0018����4z\u0007\n\u0005brandz\u0007\n\u0005modelz\u0014\n\u0006system\u0012\nWindows 10",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "text/plain",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.177Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/login/config?s_locale=id_ID&platform=web",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.179Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/playurl?s_locale=id_ID&platform=web&aid=4800360994708480&tk=&qn=64&type=0&device=wap&tf=0&spm_id=bstar-web.ugc-video-detail.0.0&from_spm_id=",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.290Z",
+    "url": "https://data.bilibili.tv/log/web?0180621791475982286https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|1791475982286|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800x600|1||333.989|en-GB|id|1b6eb9bc-d9f4-425e-8bd7-461b6f727d55|player|codec_check|{%22isSuppertHEVC%22:1,%22isSupportAV1%22:1}|2",
+    "method": "POST",
+    "postData": "------WebKitFormBoundary8pitLHWeDBjt25an--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundary8pitLHWeDBjt25an",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.859Z",
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:02.930Z",
+    "url": "https://api.bilibili.tv/x/kv-frontend/namespace/data?appKey=333.989&nscode=0&unlimit=true",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.433Z",
+    "url": "https://p.bstarstatic.com/fe-lib/player/contour-1x.png",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/useError-5a77f57b.css",
+      ":authority": "p.bstarstatic.com",
+      ":method": "GET",
+      ":path": "/fe-lib/player/contour-1x.png",
+      ":scheme": "https",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "priority": "i",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.547Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=0-1386",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.548Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=0-1120",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.836Z",
+    "url": "https://connect.facebook.net/app_config/json/1722713787887984/",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.927Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=0-1090",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.929Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=0-824",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.989Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=1387-165914",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:03.999Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=1121-42947",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.017Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/video/shot?s_locale=id_ID&platform=web&aid=4800360994708480",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480",
+      ":authority": "api.bilibili.tv",
+      ":method": "GET",
+      ":path": "/intl/gateway/web/v2/video/shot?s_locale=id_ID&platform=web&aid=4800360994708480",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "cookie": "buvid3=192e6eb7-edc4-4e44-8533-435a3169baf760477infoc; bstar-web-lang=id; buvid4=9580701E-87D5-E656-F6B2-337020C056E584307-026100900-pezxksxcB89WWu4wt88w%2Fw%3D%3D",
+      "origin": "https://www.bilibili.tv",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.032Z",
+    "url": "https://data.bilibili.tv/log/web?0180501791475984019https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.player_mute_button_show|1791475984019|800x600|1|{%22aid%22:%224800360994708480%22,%22screen%22:0}|en-GB|{}|1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundarysmeiA2AsPga3Ty2E--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundarysmeiA2AsPga3Ty2E",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.197Z",
+    "url": "https://pic.bstarstatic.com/videoshot/n260726ad29y3vd3vhs0h41yhbstcnbz.bin",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.205Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=165915-289506",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.211Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=42948-84878",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.364Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=289507-441995",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.403Z",
+    "url": "https://data.bilibili.tv/log/web?0000171791475984384https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.first_play||1791475984384|0|0|800x600|1|{%22event%22:%22first_play%22,%22value%22:{%22from_spmid%22:%22%22}}|{}||192e6eb7-edc4-4e44-8533-435a3169baf760477infoc|en-GB||1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryo1XiTfaFqMOjMXDq--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryo1XiTfaFqMOjMXDq",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480",
+      ":authority": "data.bilibili.tv",
+      ":method": "POST",
+      ":path": "/log/web?0000171791475984384https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.first_play||1791475984384|0|0|800x600|1|{%22event%22:%22first_play%22,%22value%22:{%22from_spmid%22:%22%22}}|{}||192e6eb7-edc4-4e44-8533-435a3169baf760477infoc|en-GB||1",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "content-length": "44",
+      "cookie": "buvid3=192e6eb7-edc4-4e44-8533-435a3169baf760477infoc; bstar-web-lang=id; buvid4=9580701E-87D5-E656-F6B2-337020C056E584307-026100900-pezxksxcB89WWu4wt88w%2Fw%3D%3D",
+      "origin": "https://www.bilibili.tv",
+      "priority": "u=4, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-site"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.407Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/data/report/heartbeat?s_locale=id_ID&platform=web",
+    "method": "POST",
+    "postData": "------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"user_status\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"spmid\"\r\n\r\nbstar-web.ugc-video-detail.0.0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"from_spmid\"\r\n\r\n\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"s_locale\"\r\n\r\nid\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"network_type\"\r\n\r\n1\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"timezone\"\r\n\r\nAsia/Jakarta\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"mobi_app\"\r\n\r\nbstar_w\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"detail_play_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"list_play_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"sub_type\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"play_type\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"plat\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"cookie_sid\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"session\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"epid\"\r\n\r\n\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"sid\"\r\n\r\n\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"quality\"\r\n\r\n2\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"aid\"\r\n\r\n4800360994708480\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"type\"\r\n\r\n3\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"business\"\r\n\r\nugc\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"stime\"\r\n\r\n1791475984\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"action\"\r\n\r\nstart\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"incr_pause_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"incr_play_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"total_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"paused_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"played_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"current_progress\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"last_play_progress_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"max_play_progress_time\"\r\n\r\n0\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ\r\nContent-Disposition: form-data; name=\"video_duration\"\r\n\r\n105\r\n------WebKitFormBoundarysbvm69BTBV4BAAEQ--\r\n",
+    "headers": {
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundarysbvm69BTBV4BAAEQ"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.428Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/data/report/click?s_locale=id_ID&platform=web",
+    "method": "POST",
+    "postData": "------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"user_status\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"spmid\"\r\n\r\nbstar-web.ugc-video-detail.0.0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"from_spmid\"\r\n\r\n\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"s_locale\"\r\n\r\nid\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"network_type\"\r\n\r\n1\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"timezone\"\r\n\r\nAsia/Jakarta\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"mobi_app\"\r\n\r\nbstar_w\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"detail_play_time\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"list_play_time\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"sub_type\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"play_type\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"plat\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"cookie_sid\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"session\"\r\n\r\n0\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"epid\"\r\n\r\n\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"sid\"\r\n\r\n\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"quality\"\r\n\r\n2\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"aid\"\r\n\r\n4800360994708480\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"type\"\r\n\r\n3\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"business\"\r\n\r\nugc\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA\r\nContent-Disposition: form-data; name=\"stime\"\r\n\r\n1791475984\r\n------WebKitFormBoundarykQTEHXayZBrCgmbA--\r\n",
+    "headers": {
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundarykQTEHXayZBrCgmbA",
+      ":authority": "api.bilibili.tv",
+      ":method": "POST",
+      ":path": "/intl/gateway/web/data/report/click?s_locale=id_ID&platform=web",
+      ":scheme": "https",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "content-length": "2126",
+      "cookie": "buvid3=192e6eb7-edc4-4e44-8533-435a3169baf760477infoc; bstar-web-lang=id; buvid4=9580701E-87D5-E656-F6B2-337020C056E584307-026100900-pezxksxcB89WWu4wt88w%2Fw%3D%3D",
+      "origin": "https://www.bilibili.tv",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-site"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.429Z",
+    "url": "https://data.bilibili.tv/log/web?0180501791475984413https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.player_mute_button_show|1791475984413|800x600|1|{%22aid%22:%224800360994708480%22,%22screen%22:0}|en-GB|{}|1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundarytqsxlQ7mHYnXx7nl--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundarytqsxlQ7mHYnXx7nl",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.538Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759844991791475983997|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|0|32||105|0|||0|1|mb_meta|{%22reload%22:0,%22enter_s%22:null,%22enter_e%22:null,%22init_s%22:9011.5,%22init_e%22:558.6,%22playurl_s%22:null,%22playurl_e%22:null,%22meta_s%22:603.1,%22meta_e%22:1007.2}",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryJGKTuKJrjV3J9u1e--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryJGKTuKJrjV3J9u1e",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.539Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=441996-595513",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.744Z",
+    "url": "https://data.bilibili.tv/v2/log/web?content_type=pbrequest&logid=021434&disable_compression=true",
+    "method": "POST",
+    "postData": "\n�\u0004\n\u0006021434\u0012'333.989.bstar.bstar-web.PERFORMANCE.FCP\u001a�\u0003\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a'333.989.bstar.bstar-web.PERFORMANCE.FCP\"\u0003333(\u00020�ʨ�48�ʨ�4@�ʨ�4R�\u0001�\u0001\u000b\n\u0004name\u0012\u0003FCP�\u0001\r\n\u0005value\u0012\u00045372�\u0001\u000e\n\u0006rating\u0012\u0004poor�\u0001\u001a\n\u000enavigationType\u0012\bnavigate�\u0001>\n\tpageOgUrl\u00121https://www.bilibili.tv/id/video/4800360994708480�\u0001\u0017\n\rmirrorVersion\u0012\u00062.0.15j\u0007\n\u0005brandj\u0007\n\u0005modelj\u0014\n\u0006system\u0012\nWindows 10\"6\n\u000bmetaEventId\u0012'333.989.bstar.bstar-web.PERFORMANCE.FCP\" \n\u0011metaEventCategory\u0012\u000bperformance\n�\u0004\n\u0006021434\u0012(333.989.bstar.bstar-web.PERFORMANCE.TTFB\u001a�\u0003\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a(333.989.bstar.bstar-web.PERFORMANCE.TTFB\"\u0003333(\u00030�ʨ�48�ʨ�4@�ʨ�4R�\u0001�\u0001\f\n\u0004name\u0012\u0004TTFB�\u0001\u001b\n\u0005value\u0012\u00121799.7999999970198�\u0001\u001b\n\u0006rating\u0012\u0011needs-improvement�\u0001\u001a\n\u000enavigationType\u0012\bnavigate�\u0001>\n\tpageOgUrl\u00121https://www.bilibili.tv/id/video/4800360994708480�\u0001\u0017\n\rmirrorVersion\u0012\u00062.0.15j\u0007\n\u0005brandj\u0007\n\u0005modelj\u0014\n\u0006system\u0012\nWindows 10\"7\n\u000bmetaEventId\u0012(333.989.bstar.bstar-web.PERFORMANCE.TTFB\" \n\u0011metaEventCategory\u0012\u000bperformance\n�\n\n\u0006021434\u0012,333.989.bstar.bstar-web.PERFORMANCE.PAGETIME\u001a�\t\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a,333.989.bstar.bstar-web.PERFORMANCE.PAGETIME\"\u0003333(\u00040�Ϩ�48�Ϩ�4@�Ϩ�4R�\u0007-\u0000\u0000�@5��\u0011A=�\f�CE�\f�CM���DU��+D]3��De���Dm�L�D}\u0000ȦE�\u0001\u0000��E�\u0001\u0000��E�\u0001�\t�E�\u0001\u0000\f�E�\u0001�\r�E�\u0001\u000f\n\b_version\u0012\u00032.0�\u00019\n\u0004name\u00121https://www.bilibili.tv/id/video/4800360994708480�\u0001\u0017\n\tentryType\u0012\nnavigation�\u0001\u000e\n\tstartTime\u0012\u00010�\u0001\u001c\n\bduration\u0012\u00107585.70000000298�\u0001\u0013\n\fnavigationId\u0012\u0003195�\u0001\u001b\n\rinitiatorType\u0012\nnavigation�\u0001\u000e\n\fdeliveryType�\u0001\u0015\n\u000fnextHopProtocol\u0012\u0002h2�\u0001$\n\u0014renderBlockingStatus\u0012\fnon-blocking�\u0001\u0018\n\u000bcontentType\u0012\ttext/html�\u0001\u0017\n\u000fcontentEncoding\u0012\u0004gzip�\u0001\u0010\n\u000bworkerStart\u0012\u00010�\u0001 \n\u001bworkerRouterEvaluationStart\u0012\u00010�\u0001\u001b\n\u0016workerCacheLookupStart\u0012\u00010�\u0001\u0019\n\u0017workerMatchedSourceType�\u0001\u0017\n\u0015workerFinalSourceType�\u0001\u001e\n\u0019firstInterimResponseStart\u0012\u00010�\u0001/\n\u0019finalResponseHeadersStart\u0012\u00121799.7999999970198�\u0001\u0015\n\ftransferSize\u0012\u000513095�\u0001\u0018\n\u000fencodedBodySize\u0012\u000512795�\u0001\u0018\n\u000fdecodedBodySize\u0012\u000569929�\u0001\u0015\n\u000eresponseStatus\u0012\u0003200�\u0001\u0015\n\u0010unloadEventStart\u0012\u00010�\u0001\u0012\n\rredirectCount\u0012\u00010�\u0001\u0014\n\u000factivationStart\u0012\u00010�\u0001\u0016\n\u0011criticalCHRestart\u0012\u00010�\u0001?\n\nconfidence\u00121{\"randomizedTriggerRate\":0.4994798,\"value\":\"low\"}�\u0001 \n\u000fpageStartTimeTs\u0012\r1791475973975�\u0001\u0017\n\rmirrorVersion\u0012\u00062.0.15j\u0007\n\u0005brandj\u0007\n\u0005modelj\u0014\n\u0006system\u0012\nWindows 10\";\n\u000bmetaEventId\u0012,333.989.bstar.bstar-web.PERFORMANCE.PAGETIME\" \n\u0011metaEventCategory\u0012\u000bperformance",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "text/plain",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.849Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759848481791475984017|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|0|32||105|0|||0|1|browser_forbid_autoplay|{%22autoplayMode%22:%22auto%22,%22isMute%22:false}",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryIyPAQn8ePtYAixl7--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryIyPAQn8ePtYAixl7",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.970Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/player-feedback-dff020f5.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.971Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/player-feedback.vue_vue_type_script_setup_true_lang-4002bbd2.js",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "origin": "https://www.bilibili.tv",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:04.976Z",
+    "url": "https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/player-feedback-d0006411.css",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.015Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759849861791475984055|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|0|32||105|0|||0|1|mb_first_play|{%22reload%22:0,%22enter_s%22:null,%22enter_e%22:null,%22init_s%22:9011.5,%22init_e%22:558.6,%22playurl_s%22:null,%22playurl_e%22:null,%22meta_s%22:603.1,%22meta_e%22:1007.2,%22frame%22:0,%22canplay%22:null,%22first_play%22:1067.4}",
+    "method": "POST",
+    "postData": "------WebKitFormBoundary60mllvzBB1A7LTLC--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundary60mllvzBB1A7LTLC",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.154Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759851441791475984056|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|0|32||105|0|||0|1|first_play|",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryILs1dN0zBuw7U4iB--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryILs1dN0zBuw7U4iB",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.292Z",
+    "url": "https://api.bilibili.tv/reply/web/root?s_locale=id_ID&platform=web&pn=0&ps=20&oid=4800360994708480&type=1&sort_type=1",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.297Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/notifycard?s_locale=id_ID&platform=web&from_page=ugc_player&position=1007,21",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.304Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/popups?s_locale=id_ID&platform=web",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.566Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/vip/benefits/panel?s_locale=id_ID&from_page=nav&platform=web",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.605Z",
+    "url": "https://api.bilibili.tv/intl/gateway/web/v2/notifycard?s_locale=id_ID&platform=web&from_page=ugc_player&position=1007,21",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.748Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=84879-125608",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.769Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759857661791475984365|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|1|32||105|0|||1|4|mb_canplay|{%22reload%22:0,%22enter_s%22:null,%22enter_e%22:null,%22init_s%22:9011.5,%22init_e%22:558.6,%22playurl_s%22:null,%22playurl_e%22:null,%22meta_s%22:603.1,%22meta_e%22:1007.2,%22frame%22:1377.2,%22canplay%22:1378.3}",
+    "method": "POST",
+    "postData": "------WebKitFormBoundaryGYIhhiaDBcKjRCMj--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryGYIhhiaDBcKjRCMj",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.783Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=595514-809390",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:05.873Z",
+    "url": "https://data.bilibili.tv/log/web?01804417914759858711791475984366|0.39.8|f85e2822ec124bbb89edbf562a1ac8f55ec85550|800|600|800*600|0|333.989|en-GB|id|DASH|||4800360994708480|{%22isMute%22:true,%22volume%22:0}|ae1e72ed2ba4af1516fc39af4c235881|upos-sz-mirrorcosbstar1.bilivideo.com|1|32||105|0||https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0|1|4|loaded_time|{%22loaded_time%22:10915,%22s1_redirect%22:0,%22s1_dns%22:257,%22s1_tcp%22:1027,%22s1_ssl%22:606,%22s1_request%22:508,%22s1_response%22:67,%22s1_dom%22:3471,%22s1_domContentLoaded%22:1,%22s1_domToMounted%22:2693,%22s1_stage_total%22:8627,%22s1%22:8026,%22s2%22:866,%22s3%22:457,%22s4%22:667,%22s4_init%22:1,%22s4_attach%22:80,%22s4_meta%22:452,%22oldLoadedTime%22:10018,%22s5%22:368}",
+    "method": "POST",
+    "postData": "------WebKitFormBoundarywBMAwm4uzY9Bo7sg--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundarywBMAwm4uzY9Bo7sg",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:06.080Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=125609-167424",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:06.211Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=167425-208614",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:06.397Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=208615-250419",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:07.455Z",
+    "url": "https://data.bilibili.tv/log/web?0180501791475987449https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.player_quality_floating_show|1791475987449|800x600|1|{%22aid%22:%224800360994708480%22,%22screen%22:0}|en-GB|{}|1",
+    "method": "POST",
+    "postData": "------WebKitFormBoundary7X1eCu4CL1z0EkUq--\r\n",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "multipart/form-data; boundary=----WebKitFormBoundary7X1eCu4CL1z0EkUq",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480",
+      ":authority": "data.bilibili.tv",
+      ":method": "POST",
+      ":path": "/log/web?0180501791475987449https%3A%2F%2Fwww.bilibili.tv%2Fid%2Fvideo%2F4800360994708480|333.989.selfDef.player_quality_floating_show|1791475987449|800x600|1|{%22aid%22:%224800360994708480%22,%22screen%22:0}|en-GB|{}|1",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "content-length": "44",
+      "cookie": "buvid3=192e6eb7-edc4-4e44-8533-435a3169baf760477infoc; bstar-web-lang=id; buvid4=9580701E-87D5-E656-F6B2-337020C056E584307-026100900-pezxksxcB89WWu4wt88w%2Fw%3D%3D",
+      "origin": "https://www.bilibili.tv",
+      "priority": "u=4, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-site"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:08.105Z",
+    "url": "https://data.bilibili.tv/v2/log/web?content_type=pbrequest&logid=021434&disable_compression=true",
+    "method": "POST",
+    "postData": "\n�\u0005\n\u0006021434\u0012'333.989.bstar.bstar-web.PERFORMANCE.LCP\u001a�\u0004\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a'333.989.bstar.bstar-web.PERFORMANCE.LCP\"\u0003333(\u00050���48���4@���4R�\u0002�\u0001\u000b\n\u0004name\u0012\u0003LCP�\u0001\r\n\u0005value\u0012\u00045820�\u0001\u000e\n\u0006rating\u0012\u0004poor�\u0001\u001a\n\u000enavigationType\u0012\bnavigate�\u0001n\n\u000battribution\u0012_{\"url\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/black-bg-49c43c90.png\"}�\u0001>\n\tpageOgUrl\u00121https://www.bilibili.tv/id/video/4800360994708480�\u0001\u0017\n\rmirrorVersion\u0012\u00062.0.15j\u0007\n\u0005brandj\u0007\n\u0005modelj\u0014\n\u0006system\u0012\nWindows 10\"6\n\u000bmetaEventId\u0012'333.989.bstar.bstar-web.PERFORMANCE.LCP\" \n\u0011metaEventCategory\u0012\u000bperformance",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "text/plain",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:09.637Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=809391-978241",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:14.329Z",
+    "url": "https://data.bilibili.tv/v2/log/web?content_type=pbrequest&logid=021434&disable_compression=true",
+    "method": "POST",
+    "postData": "\n�8\n\u0006021434\u0012(333.989.bstar.bstar-web.PERFORMANCE.LOAF\u001a�7\nG\bd\u0010\u0005\u001a.192e6eb7-edc4-4e44-8533-435a3169baf760477infoc2\u0007800*600:\u0004-420J\u0002pc\u0012M\n\u00023g\u00121https://www.bilibili.tv/id/video/4800360994708480\"\u00051.2.1*\u0002{}0\u0001:\u0007800*600\u001a(333.989.bstar.bstar-web.PERFORMANCE.LOAF\"\u0003333(\u00060ᕩ�48ᕩ�4@敩�4R�5�\u0001\u0010\n\ntotalCount\u0012\u000224�\u0001+\n\u0015totalBlockingDuration\u0012\u00121646.8999999999999�\u0001�4\n\ttopFrames\u0012�4[{\"duration\":500.70000000298023,\"startTime\":7723,\"blockingDuration\":446.3,\"renderStart\":8204.5,\"styleAndLayoutStart\":8204.70000000298,\"scripts\":[{\"name\":\"script\",\"invoker\":\"import.then\",\"invokerType\":\"resolve-promise\",\"duration\":470.79999999701977,\"startTime\":7731.60000000149,\"executionStart\":7731.60000000149,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-f905d25c.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":28229},{\"name\":\"script\",\"invoker\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/ugc-0cd58e0e.js\",\"invokerType\":\"module-script\",\"duration\":5.399999998509884,\"startTime\":7726.20000000298,\"executionStart\":7726.20000000298,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/ugc-0cd58e0e.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0}]},{\"duration\":469.6000000014901,\"startTime\":6623.10000000149,\"blockingDuration\":408,\"renderStart\":7088,\"styleAndLayoutStart\":7088.10000000149,\"scripts\":[{\"name\":\"script\",\"invoker\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-f905d25c.js\",\"invokerType\":\"module-script\",\"duration\":453.1000000014901,\"startTime\":6627.39999999851,\"executionStart\":6627.39999999851,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-f905d25c.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0}]},{\"duration\":3475.6999999955297,\"startTime\":1843.6000000014901,\"blockingDuration\":255.3,\"renderStart\":5029.70000000298,\"styleAndLayoutStart\":5029.70000000298,\"scripts\":[]},{\"duration\":348.30000000447035,\"startTime\":11258.29999999702,\"blockingDuration\":224.6,\"renderStart\":11596.5,\"styleAndLayoutStart\":11596.70000000298,\"scripts\":[{\"name\":\"script\",\"invoker\":\"import.then\",\"invokerType\":\"resolve-promise\",\"duration\":207.70000000298023,\"startTime\":11380.29999999702,\"executionStart\":11380.29999999702,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-35deccbd.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":102744},{\"name\":\"script\",\"invoker\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/b-header-3a45d67c.js\",\"invokerType\":\"module-script\",\"duration\":49.5,\"startTime\":11330.70000000298,\"executionStart\":11330.70000000298,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/b-header-3a45d67c.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0},{\"name\":\"script\",\"invoker\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/comments-73e2c894.js\",\"invokerType\":\"module-script\",\"duration\":29.69999999552965,\"startTime\":11259.70000000298,\"executionStart\":11259.70000000298,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/comments-73e2c894.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0},{\"name\":\"script\",\"invoker\":\"import.then\",\"invokerType\":\"resolve-promise\",\"duration\":26.5,\"startTime\":11289.5,\"executionStart\":11289.5,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/meta-intro.vue_vue_type_style_index_0_lang-0d9bd4dd.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":69939},{\"name\":\"script\",\"invoker\":\"import.then\",\"invokerType\":\"resolve-promise\",\"duration\":6.5,\"startTime\":11322.29999999702,\"executionStart\":11322.29999999702,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/index-f905d25c.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":15408}]},{\"duration\":137.5,\"startTime\":5336.89999999851,\"blockingDuration\":87.1,\"renderStart\":5471.10000000149,\"styleAndLayoutStart\":5471.29999999702,\"scripts\":[{\"name\":\"script\",\"invoker\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/polyfills-395bdbc3.js\",\"invokerType\":\"module-script\",\"duration\":133.69999999552965,\"startTime\":5337.10000000149,\"executionStart\":5337.10000000149,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/polyfills-395bdbc3.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0}]},{\"duration\":122.29999999701977,\"startTime\":9352.60000000149,\"blockingDuration\":71.2,\"renderStart\":9470.89999999851,\"styleAndLayoutStart\":9471.10000000149,\"scripts\":[{\"name\":\"script\",\"invoker\":\"Promise.resolve\",\"invokerType\":\"resolve-promise\",\"duration\":117.20000000298023,\"startTime\":9352.89999999851,\"executionStart\":9352.89999999851,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/biliintl-player-dfb25af7.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":430683}]},{\"duration\":102.90000000596046,\"startTime\":9482.29999999702,\"blockingDuration\":41.3,\"renderStart\":9574.5,\"styleAndLayoutStart\":9574.89999999851,\"scripts\":[{\"name\":\"script\",\"invoker\":\"TimerHandler:setTimeout\",\"invokerType\":\"user-callback\",\"duration\":80.40000000596046,\"startTime\":9489.79999999702,\"executionStart\":9489.79999999702,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/biliintl-player-dfb25af7.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":643733}]},{\"duration\":90.5,\"startTime\":10902.60000000149,\"blockingDuration\":37.4,\"renderStart\":10984.5,\"styleAndLayoutStart\":10984.79999999702,\"scripts\":[{\"name\":\"script\",\"invoker\":\"TimerHandler:setTimeout\",\"invokerType\":\"user-callback\",\"duration\":78.69999999552965,\"startTime\":10902.60000000149,\"executionStart\":10902.60000000149,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/ugc-0cd58e0e.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":8084}]},{\"duration\":84.20000000298023,\"startTime\":9762.5,\"blockingDuration\":31.1,\"renderStart\":9839.39999999851,\"styleAndLayoutStart\":9839.60000000149,\"scripts\":[{\"name\":\"script\",\"invoker\":\"https://connect.facebook.net/en_US/bundle/sdk.js/\",\"invokerType\":\"classic-script\",\"duration\":73.39999999850988,\"startTime\":9765.60000000149,\"executionStart\":9765.60000000149,\"sourceURL\":\"https://connect.facebook.net/en_US/bundle/sdk.js/\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0}]},{\"duration\":67.09999999403954,\"startTime\":9691.20000000298,\"blockingDuration\":16.5,\"renderStart\":9754.79999999702,\"styleAndLayoutStart\":9755,\"scripts\":[{\"name\":\"script\",\"invoker\":\"https://s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js\",\"invokerType\":\"classic-script\",\"duration\":35.79999999701977,\"startTime\":9691.60000000149,\"executionStart\":9691.60000000149,\"sourceURL\":\"https://s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":0},{\"name\":\"script\",\"invoker\":\"SCRIPT[src=\\\"//s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js\\\"].onload\",\"invokerType\":\"event-listener\",\"duration\":27,\"startTime\":9727.39999999851,\"executionStart\":9727.39999999851,\"sourceURL\":\"https://p.bstarstatic.com/fe-static/bstar-web-new/client/assets/vendor-bc097aa0.js\",\"sourceFunctionName\":\"\",\"sourceCharPosition\":705196}]}]�\u0001\u0017\n\rmirrorVersion\u0012\u00062.0.15j\u0007\n\u0005brandj\u0007\n\u0005modelj\u0014\n\u0006system\u0012\nWindows 10\"7\n\u000bmetaEventId\u0012(333.989.bstar.bstar-web.PERFORMANCE.LOAF\" \n\u0011metaEventCategory\u0012\u000bperformance",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "content-type": "text/plain",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:14.753Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=978242-1124638",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:15.369Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=250420-291283",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:15.668Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=291284-332383",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:19.827Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=1124639-1353635",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:24.715Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=1353636-1593794",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:25.867Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=332384-373995",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:26.251Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=373996-415089",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:29.892Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-131220110000.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&gen=playurlv3&os=cosbstar1bv&oi=2107698543&trid=882d4c1d995d494ca148b37a89b5f39di&mid=0&uipk=5&nbs=1&deadline=1791483184&platform=pc&upsig=9b00ad4111ab1414c75d6707b7d9f284&uparams=e,gen,os,oi,trid,mid,uipk,nbs,deadline,platform&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=1593795-1708687",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  },
+  {
+    "timestamp": "2026-10-08T16:13:30.292Z",
+    "url": "https://upos-sz-mirrorcosbstar1.bilivideo.com/iupxcodeboss/bz/cn/n260726ad29y3vd3vhs0h41yhbstcnbz-1-1a1301000022.m4s?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&os=cosbstar1bv&oi=2107698543&platform=pc&uipk=5&gen=playurlv3&trid=a414b4effc5a4a37a2e511edd183130fi&mid=0&nbs=1&deadline=1791483184&upsig=bf478e604fc6cfa52d3e30f8bba6829c&uparams=e,os,oi,platform,uipk,gen,trid,mid,nbs,deadline&bvc=vod&orderid=0,2&logo=00000000&f=i_0_0",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+      "range": "bytes=415090-456949",
+      "referer": "https://www.bilibili.tv/id/video/4800360994708480"
+    }
+  }
+]

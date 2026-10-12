@@ -1,0 +1,76 @@
+{
+  "startViews": "16 Ditonton",
+  "finalViews": "20 Ditonton",
+  "results": [
+    {
+      "round": 1,
+      "time": "23.52.33",
+      "serverCode": 0,
+      "durationSimulated": 45,
+      "liveViews": "17 Ditonton"
+    },
+    {
+      "round": 2,
+      "time": "23.52.59",
+      "serverCode": 0,
+      "durationSimulated": 64,
+      "liveViews": "17 Ditonton"
+    },
+    {
+      "round": 3,
+      "time": "23.53.26",
+      "serverCode": 0,
+      "durationSimulated": 74,
+      "liveViews": "17 Ditonton"
+    },
+    {
+      "round": 4,
+      "time": "23.53.52",
+      "serverCode": 0,
+      "durationSimulated": 52,
+      "liveViews": "18 Ditonton"
+    },
+    {
+      "round": 5,
+      "time": "23.54.18",
+      "serverCode": 0,
+      "durationSimulated": 58,
+      "liveViews": "18 Ditonton"
+    },
+    {
+      "round": 6,
+      "time": "23.54.44",
+      "serverCode": 0,
+      "durationSimulated": 41,
+      "liveViews": "18 Ditonton"
+    },
+    {
+      "round": 7,
+      "time": "23.55.10",
+      "serverCode": 0,
+      "durationSimulated": 51,
+      "liveViews": "19 Ditonton"
+    },
+    {
+      "round": 8,
+      "time": "23.55.37",
+      "serverCode": 0,
+      "durationSimulated": 58,
+      "liveViews": "19 Ditonton"
+    },
+    {
+      "round": 9,
+      "time": "23.56.03",
+      "serverCode": 0,
+      "durationSimulated": 48,
+      "liveViews": "19 Ditonton"
+    },
+    {
+      "round": 10,
+      "time": "23.56.29",
+      "serverCode": 0,
+      "durationSimulated": 49,
+      "liveViews": "20 Ditonton"
+    }
+  ]
+}

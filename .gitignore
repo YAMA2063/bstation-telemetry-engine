@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Android SDK & Build Artifacts (Very Large Binaries)
+android-sdk/
+build_apk_temp/
+*.apk
+*.idsig
+debug.keystore
+
+# Logs & Temporary Files
+*.log
+.system_generated/
+_*.vbs
+_*.bat
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bstation Booster | Smart View Engine</title>
+  <meta name="description" content="Dashboard kontrol otomatisasi penambahan views Bstation yang cerdas, cepat, dan aman.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="public/app_icon.png">
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-noise"></div>
+  <div class="bg-floor"></div>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+  <div class="bg-grid"></div>
+
+  <div class="app-shell">
+    <!-- Top Bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="logo-icon-apk" title="Bstation Booster App">
+          <img src="public/app_icon.png" alt="Bstation Booster" class="app-icon-img">
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Bstation<span class="logo-accent">Boost</span></span>
+          <span class="logo-tag">Smart View Engine v2.0</span>
+        </div>
+        <div class="bstation-brand-badge" title="Terhubung ke Jaringan Bstation / Bilibili TV">
+          <svg class="bstation-tv-svg" width="22" height="18" viewBox="0 0 120 100" fill="none">
+            <line x1="38" y1="18" x2="22" y2="4" stroke="#00AEEC" stroke-width="8" stroke-linecap="round"/>
+            <line x1="82" y1="18" x2="98" y2="4" stroke="#00AEEC" stroke-width="8" stroke-linecap="round"/>
+            <rect x="10" y="16" width="100" height="74" rx="22" fill="#00AEEC"/>
+            <circle cx="44" cy="50" r="7" fill="#FFFFFF"/>
+            <circle cx="76" cy="50" r="7" fill="#FFFFFF"/>
+            <path d="M54 62 Q60 68 66 62" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+          </svg>
+          <span>Bstation Resmi</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="connection-badge" id="connection-badge">
+          <span class="conn-dot" id="conn-dot"></span>
+          <span id="conn-text">Menghubungkan...</span>
+        </div>
+        <div class="live-clock" id="live-clock"></div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <div class="bstation-brand-chip">
+          <svg class="bstation-tv-chip" width="20" height="17" viewBox="0 0 120 100" fill="none">
+            <line x1="38" y1="18" x2="22" y2="4" stroke="#00AEEC" stroke-width="9" stroke-linecap="round"/>
+            <line x1="82" y1="18" x2="98" y2="4" stroke="#00AEEC" stroke-width="9" stroke-linecap="round"/>
+            <rect x="10" y="16" width="100" height="74" rx="22" fill="#00AEEC"/>
+            <circle cx="44" cy="50" r="7" fill="#FFFFFF"/>
+            <circle cx="76" cy="50" r="7" fill="#FFFFFF"/>
+            <path d="M54 62 Q60 68 66 62" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none"/>
+          </svg>
+          <span>bilibili.tv • Bstation Official Network</span>
+        </div>
+        <h1 class="hero-title" data-text="Boost">Boost</h1>
+        <h1 class="hero-title hero-title-2 bstation-blue-title" data-text="Bstation">Bstation</h1>
+        <p class="hero-sub">Tentukan link video Bstation, atur jeda alami, lalu dorong views secara otomatis dengan engine Bstation resmi.</p>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <div class="reactor">
+          <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+          <span class="orbiter o1"></span><span class="orbiter o2"></span>
+          <div class="core bstation-core">
+            <svg width="48" height="42" viewBox="0 0 120 100" fill="none">
+              <line x1="38" y1="18" x2="22" y2="4" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+              <line x1="82" y1="18" x2="98" y2="4" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+              <rect x="10" y="16" width="100" height="74" rx="22" fill="#ffffff"/>
+              <circle cx="44" cy="50" r="7" fill="#00AEEC"/>
+              <circle cx="76" cy="50" r="7" fill="#00AEEC"/>
+              <path d="M54 62 Q60 68 66 62" stroke="#00AEEC" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+        </div>
+        <div class="cube c1"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="cube c2"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Left Panel: Controls -->
+      <div class="panel panel-controls">
+        <!-- Target Input -->
+        <section class="glass-card">
+          <div class="card-head">
+            <div class="card-icon bstation-blue-icon">
+              <svg width="22" height="19" viewBox="0 0 120 100" fill="none">
+                <line x1="38" y1="18" x2="22" y2="4" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+                <line x1="82" y1="18" x2="98" y2="4" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+                <rect x="10" y="16" width="100" height="74" rx="22" fill="#FFFFFF"/>
+                <circle cx="44" cy="50" r="7" fill="#00AEEC"/>
+                <circle cx="76" cy="50" r="7" fill="#00AEEC"/>
+                <path d="M54 62 Q60 68 66 62" stroke="#00AEEC" stroke-width="5" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <h2 class="card-label">Target Video Bstation</h2>
+            <span class="bstation-mini-pill">bilibili.tv</span>
+          </div>
+
+          <div class="url-input-wrap">
+            <input type="text" id="video-url-input" placeholder="Tempel link video bilibili.tv..." value="https://www.bilibili.tv/id/video/4800360994708480" autocomplete="off" spellcheck="false">
+            <button type="button" id="btn-check-info" class="btn-icon-action" title="Cek Info Video">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </button>
+          </div>
+
+          <!-- Video Info Preview -->
+          <div class="video-card" id="video-card">
+            <div class="video-card-accent"></div>
+            <div class="video-card-body">
+              <span class="vid-aid" id="preview-aid">AID: —</span>
+              <h3 class="vid-title" id="preview-title">Belum ada video dipilih</h3>
+              <div class="vid-meta-row">
+                <span class="vid-meta">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                  <span id="preview-uploader">—</span>
+                </span>
+                <span class="vid-meta vid-meta-views">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  <span id="preview-views">—</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Config -->
+        <section class="glass-card">
+          <div class="card-head">
+            <div class="card-icon purple">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h2 class="card-label">Konfigurasi</h2>
+          </div>
+
+          <div class="config-grid">
+            <div class="cfg-field">
+              <label for="target-count-input">Total Target</label>
+              <input type="number" id="target-count-input" min="1" max="5000" value="10">
+              <span class="cfg-hint">Target views</span>
+            </div>
+            <div class="cfg-field">
+              <label for="min-delay-input">Jeda Min</label>
+              <input type="number" id="min-delay-input" min="5" max="600" value="81">
+              <span class="cfg-hint">Detik (rekomendasi: 81s)</span>
+            </div>
+            <div class="cfg-field">
+              <label for="max-delay-input">Jeda Max</label>
+              <input type="number" id="max-delay-input" min="5" max="600" value="85">
+              <span class="cfg-hint">Detik (rekomendasi: 85s)</span>
+            </div>
+          </div>
+
+          <!-- Proxy Toggle -->
+          <div class="proxy-section">
+            <label class="switch-row" for="use-proxy-checkbox">
+              <div class="switch-wrap">
+                <input type="checkbox" id="use-proxy-checkbox">
+                <span class="switch-track"><span class="switch-thumb"></span></span>
+              </div>
+              <div class="switch-info">
+                <span class="switch-label">Mode Proxy Multi-IP</span>
+                <span class="switch-desc">Opsional: jika punya proxy privat</span>
+              </div>
+            </label>
+
+            <div class="proxy-details" id="proxy-details">
+              <div class="cfg-field" style="margin-top:12px;">
+                <label for="proxy-list-textarea">Daftar Proxy</label>
+                <textarea id="proxy-list-textarea" rows="3" placeholder="http://user:pass@ip:port (1 baris = 1 proxy)"></textarea>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <div class="action-row">
+          <button type="button" id="btn-start" class="btn-action btn-go">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Mulai Boost</span>
+          </button>
+          <button type="button" id="btn-stop" class="btn-action btn-halt" disabled>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="6" width="12" height="12" rx="2"/></svg>
+            <span>Stop</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Panel: Stats & Monitor -->
+      <div class="panel panel-monitor">
+        <!-- Stats Cards -->
+        <div class="stats-row">
+          <div class="stat-card stat-views">
+            <div class="stat-ring-wrap">
+              <svg class="stat-ring" viewBox="0 0 80 80">
+                <circle class="stat-ring-bg" cx="40" cy="40" r="34" />
+                <circle class="stat-ring-fill" id="ring-views" cx="40" cy="40" r="34" stroke-dasharray="213.6" stroke-dashoffset="213.6"/>
+              </svg>
+              <div class="stat-ring-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">Views Terkini</span>
+              <span class="stat-value" id="stat-current-views">—</span>
+              <span class="stat-sub" id="stat-initial-views">Awal: —</span>
+            </div>
+          </div>
+
+          <div class="stat-card stat-success">
+            <div class="stat-ring-wrap">
+              <svg class="stat-ring" viewBox="0 0 80 80">
+                <circle class="stat-ring-bg" cx="40" cy="40" r="34" />
+                <circle class="stat-ring-fill ring-green" id="ring-success" cx="40" cy="40" r="34" stroke-dasharray="213.6" stroke-dashoffset="213.6"/>
+              </svg>
+              <div class="stat-ring-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">Berhasil</span>
+              <span class="stat-value"><span id="stat-success">0</span><span class="stat-of" id="stat-target"> / 150</span></span>
+              <span class="stat-sub" id="stat-success-rate">0%</span>
+            </div>
+          </div>
+
+          <div class="stat-card stat-timer">
+            <div class="stat-ring-wrap">
+              <svg class="stat-ring" viewBox="0 0 80 80">
+                <circle class="stat-ring-bg" cx="40" cy="40" r="34" />
+                <circle class="stat-ring-fill ring-amber" id="ring-timer" cx="40" cy="40" r="34" stroke-dasharray="213.6" stroke-dashoffset="213.6"/>
+              </svg>
+              <div class="stat-ring-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">Jeda Berikutnya</span>
+              <span class="stat-value"><span id="stat-countdown">0</span><span class="stat-unit">s</span></span>
+              <span class="stat-sub" id="stat-countdown-label">Menunggu</span>
+            </div>
+          </div>
+
+          <div class="stat-card stat-fail">
+            <div class="stat-ring-wrap">
+              <svg class="stat-ring" viewBox="0 0 80 80">
+                <circle class="stat-ring-bg" cx="40" cy="40" r="34" />
+                <circle class="stat-ring-fill ring-red" id="ring-fail" cx="40" cy="40" r="34" stroke-dasharray="213.6" stroke-dashoffset="213.6"/>
+              </svg>
+              <div class="stat-ring-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              </div>
+            </div>
+            <div class="stat-info">
+              <span class="stat-label">Gagal</span>
+              <span class="stat-value" id="stat-failed">0</span>
+              <span class="stat-sub" id="stat-error-label">Tidak ada</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Progress -->
+        <section class="glass-card progress-card">
+          <div class="progress-head">
+            <span class="progress-label">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+              Kemajuan
+            </span>
+            <span class="progress-pct" id="progress-percentage">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="progress-bar"></div>
+          </div>
+          <div class="progress-status" id="progress-status">Siap dijalankan</div>
+        </section>
+
+        <!-- Terminal -->
+        <section class="glass-card terminal-card">
+          <div class="term-head">
+            <div class="term-left">
+              <div class="term-dots">
+                <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+              </div>
+              <span class="term-title">Activity Log</span>
+            </div>
+            <div class="term-right">
+              <span class="term-live-badge" id="term-live-badge">● LIVE</span>
+              <button type="button" id="btn-clear-logs" class="term-btn">Clear</button>
+            </div>
+          </div>
+          <div class="term-body" id="terminal-body">
+            <div class="log-line log-info"><span class="log-ts">[SYS]</span> Dashboard siap. Masukkan link video dan klik Mulai.</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <span>BstationBoost v2.0 — Smart Automated View Engine</span>
+    </footer>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-stack"></div>
+
+  <script src="/public/app.js"></script>
+</body>
+</html>
